@@ -104,7 +104,9 @@ function getRecord(name, salary) {
     name: name,
     salary: salary,
   };
-
+  // clear input field
+  document.getElementById("name").value = '';
+  document.getElementById("salary").value = '';
   return newItem;
 }
 
